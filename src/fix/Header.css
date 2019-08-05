@@ -1,0 +1,96 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+div {
+    display: block;
+}
+header{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    background: #212529;
+}
+.header-a{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+
+    font-weight:bold;
+    
+}
+.header-div-data{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div-master-menu{
+    display:flex;
+    justify-content: flex-start;
+    width:70%
+}
+.loginmember-div-master{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.loginmember-div-master-1{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.menu-logingroup-div{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height:50px;
+    background: #212529;;
+}
+.menu-ul-a:hover{color:#AFFFEE;}
+
+a{text-decoration:none; color:white;}
+.menu-ul-div{
+    align-self: flex-start;
+}
+
+.menu-ul li{
+    display: inline;
+  
+    font: bold 12px;
+    padding:10px 23px;
+    width :50px;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.menu-ul-li:hover{
+    background: black;
+}
+.div-master-menu-1{
+    width:100%;
+}
+.loginmember-span{
+     display: flex;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: middle;
+    flex-direction: row;
+    align-items:center;
+}
+
+.login-a{
+    
+    margin : 1px;
+    font-size: 14px;
+    margin : 5px;
+    padding : 10px;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+    border-radius: 10px 10px 10px 10px
+}
+.login-a:hover{
+    background:#AFFFEE;
+    cursor: pointer; 
+    box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
+
+}
+

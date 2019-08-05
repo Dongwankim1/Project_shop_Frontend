@@ -1,0 +1,42 @@
+footer {
+    background-color: #212529;
+    padding-top :10px;
+    width:100%;
+
+    text-align:left;
+    font-size:13px;
+    color:#fff;
+    
+}
+hr{
+    border: solid 1px red;
+
+}
+img{
+    height:30px;
+    width:30px;
+}
+
+.index-data-div-big-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.index-data-div-low-footer1{
+    display: flex;
+    justify-content: center;
+    
+}
+.index-data-div-low-footer2{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-footer{
+    
+    text-align:center;
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+}
