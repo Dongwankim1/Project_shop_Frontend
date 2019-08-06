@@ -31,12 +31,12 @@ export default class Footer extends React.Component{
                         <li><a>이용약관</a></li>
                          <li><a>개인정보취급장침</a></li>
                         <li>
-                                    <a><img src={require('./snsimg/구글.png')}></img></a>
-                                    <a><img src={require('./snsimg/유튜브1.png')}></img></a>
-                                     <a><img src={require('./snsimg/인스타그램1.png')}></img></a>
-                                      <a><img src={require('./snsimg/카카오스토리1.png')}></img></a>
-                                    <a><img src={require('./snsimg/카카오톡.png')}></img></a>
-                                    <a><img src={require('./snsimg/네이버밴드.png')}></img></a>
+                                    <a><img className="iconimg" src={require('./snsimg/구글.png')}></img></a>
+                                    <a><img className="iconimg" src={require('./snsimg/유튜브1.png')}></img></a>
+                                    <a><img className="iconimg" src={require('./snsimg/인스타그램1.png')}></img></a>
+                                    <a><img className="iconimg" src={require('./snsimg/카카오스토리1.png')}></img></a>
+                                    <a><img className="iconimg" src={require('./snsimg/카카오톡.png')}></img></a>
+                                    <a><img className="iconimg" src={require('./snsimg/네이버밴드.png')}></img></a>
                         </li>
                         </ul>
                         </div>

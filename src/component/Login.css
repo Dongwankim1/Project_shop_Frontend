@@ -1,0 +1,105 @@
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height :700px;
+}
+.container{
+    height : 600px;
+    width :600px;
+}
+.login-div{
+    height : 600px;
+    width :600px;
+}
+.login-div-1{
+    display: flex;
+    flex-direction: column;
+
+    align-items:center;
+   box-shadow: 1px 2px 3px 3px;
+    margin : 10px;
+}
+hr{
+    width :100%;
+    border :solid 1px;
+}
+.row1{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.lginput{
+    width:500px;
+    margin :10px;
+    height:50px;
+}
+.from-group{
+    position: relative;
+}
+.lginput{
+    text-indent: 30px;
+}
+.input-icon{
+    position:absolute;
+    width:40px;
+    height:40px;
+    right:510px;
+    top:405px;
+    border-left: solid 1px;
+    font-size:35px;
+}
+.fa-address-card{
+    width:40px;
+    height:40px;
+}
+
+.login-button{
+    color:white;
+    width:450px;
+    margin : 1px;
+    font-size: 18px;
+    font-weight:bold;
+    margin : 5px;
+    padding : 10px;
+    transition:width 1s, height 1s, background-color 1s, transform 1s;
+    border-radius: 5px 5px 5px 5px;
+    background: #00EBFF ;
+    font-style: "돋움";
+    border:0;
+    outline:0;
+    
+}
+.login-button:hover{
+    background:black;
+    cursor: pointer; 
+    
+    color:white;
+
+}
+.regi-button{
+    color:#00EBFF;
+    width:450px;
+    margin : 1px;
+    font-size: 18px;
+    font-weight:bold;
+    margin : 5px;
+    padding : 10px;
+    transition:width 1s, height 1s, background-color 1s, transform 1s;
+    
+    background: white ;
+    font-style: "돋움";
+    border:0;
+    outline:solid 1px #00EBFF;
+    
+
+    
+}
+.regi-button:hover{
+    background:#00EBFF;
+    cursor: pointer; 
+    color:white;
+
+}
