@@ -17,11 +17,13 @@ export default class Header extends React.Component {
                 </div>
 
             </header>
+                
             <nav>
                 <div className="div-master-menu">
                         <div className="div-master-menu-1">
                             <div className="div-master-menu-2">
                             <div className='menu-logingroup-div'>
+                                
                                 <div className="menu-ul-div">
                              <ul className="menu-ul">
                                         <li className="menu-ul-li"><a className="menu-ul-a">HOME</a></li>

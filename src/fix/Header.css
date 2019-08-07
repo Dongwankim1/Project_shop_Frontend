@@ -43,6 +43,7 @@ header{
     
 }
 nav{
+    border-top:solid 1px #a0a0a0;;
     display: flex;
     justify-content: center;
     height:50px;

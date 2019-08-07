@@ -1,18 +1,22 @@
 .login-section{
+    background: #212529;
     display: flex;
     justify-content: center;
     align-items:center;
     height :700px;
 }
 .container{
+    
     height : 600px;
     width :600px;
 }
 .login-div{
+    
     height : 600px;
     width :600px;
 }
 .login-div-1{
+    background: white;
     display: flex;
     flex-direction: column;
 
@@ -21,8 +25,8 @@
     margin : 10px;
 }
 hr{
-    width :100%;
-    border :solid 1px;
+    width :90%;
+    border: 1px solid #ececec;
 }
 .row1{
     height:100%;
@@ -35,27 +39,50 @@ hr{
     width:500px;
     margin :10px;
     height:50px;
+
+    background: none;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    box-shadow: none;
+    -webkit-transition: none;
+    color: #a0a0a0;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-family: Noto Sans KR,Raleway,Arial,sans-serif;
+    line-height: 1.428571429;
+    padding: 6px 12px;
+    
 }
-.from-group{
+.form-group{
     position: relative;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
-.lginput{
-    text-indent: 30px;
-}
+
 .input-icon{
     position:absolute;
     width:40px;
     height:40px;
-    right:510px;
-    top:405px;
-    border-left: solid 1px;
+    right:15px;
+    top:20px;
+    
+    border-left: solid 1px #ececec;
     font-size:35px;
 }
 .fa-address-card{
     width:40px;
     height:40px;
 }
-
+.pass-card{
+    width:33px;
+    height:33px;
+}
 .login-button{
     color:white;
     width:450px;
@@ -102,4 +129,7 @@ hr{
     cursor: pointer; 
     color:white;
 
+}
+.small a{
+    color: blue;
 }

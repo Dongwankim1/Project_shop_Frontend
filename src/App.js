@@ -4,6 +4,7 @@ import Header from './fix/Header';
 import Footer from './fix/Footer';
 import Home from './component/Home';
 import Login from './component/Login';
+import Test from './test';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header/>
       <Switch>
+          <Route exact path="/test" component={Test}/>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login}/>
       </Switch>
