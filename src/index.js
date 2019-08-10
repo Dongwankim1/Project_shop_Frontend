@@ -9,7 +9,7 @@ const authStore=new AuthStore();
 
 ReactDOM.render(
     <Provider authStore={authStore}>
-<App />
+        <App/>
     </Provider>
 , document.getElementById('root'));
 

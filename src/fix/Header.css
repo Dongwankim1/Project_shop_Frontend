@@ -1,5 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 div {
+    box-sizing:border-box;
     display: block;
 }
 header{
@@ -16,7 +18,7 @@ header{
     
 }
 .header-div-data{
-    width: 65%;
+    width: 75%;
     display: flex;
     justify-content: flex-start;
 }
@@ -24,18 +26,14 @@ header{
 .div-master-menu{
     display:flex;
     justify-content: flex-start;
-    width:70%
-}
-.loginmember-div-master{
-    display:flex;
-    justify-content: flex-end;
+    width:90%;
+    box-sizing: border-box;
     
 }
-.loginmember-div-master-1{
-    display:flex;
-    justify-content: flex-end;
-    
+.div-master-menu-1{
+box-sizing: border-box;
 }
+
 .menu-logingroup-div{
     display: flex;
     justify-content: space-between;
@@ -43,25 +41,38 @@ header{
     
 }
 nav{
+    position: relative;
+    box-sizing: border-box;
     border-top:solid 1px #a0a0a0;;
     display: flex;
     justify-content: center;
     height:50px;
-    background: #212529;;
+    background: #212529;
 }
 .menu-ul-a:hover{color:#AFFFEE;}
 
 a{text-decoration:none; color:white;}
 .menu-ul-div{
-    align-self: flex-start;
+    display: flex;
+    display: row;
+    width: 600px;
+    height:50px;
+    box-sizing: border-box;
+    align-items:center;
+    
 }
+.menu-ul{
+    
+     display: flex;
+    
+    width:600px;
 
+}
 .menu-ul li{
-    display: inline;
-  
     font: bold 12px;
+    box-sizing: border-box;
     padding:10px 23px;
-    width :50px;
+    width :100px;
     transition:width 2s, height 2s, background-color 2s, transform 2s;
 }
 .menu-ul-li:hover{
@@ -70,7 +81,24 @@ a{text-decoration:none; color:white;}
 .div-master-menu-1{
     width:100%;
 }
+
+.loginmember-div-master{
+    box-sizing: border-box;
+    display:flex;
+    width :300px;
+    justify-content: flex-end;
+    align-content : center;
+}
+.loginmember-div-master-1{
+    box-sizing: border-box;
+    display:flex;
+    width :300px;
+    justify-content: flex-end;
+    
+}
+
 .loginmember-span{
+    box-sizing: border-box;
      display: flex;
     padding-left: 10px;
     text-align: left;
@@ -81,7 +109,7 @@ a{text-decoration:none; color:white;}
 
 .login-a{
     
-    margin : 1px;
+  
     font-size: 14px;
     margin : 5px;
     padding : 10px;
@@ -94,4 +122,6 @@ a{text-decoration:none; color:white;}
     box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
 
 }
-
+.point-a{
+    font-family: 'Nanum Gothic',sans-serif;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login.css'
+import './Login.css';
 import Axios from 'axios';
 import { inject } from 'mobx-react';
 
@@ -16,7 +16,7 @@ class Login extends React.Component{
         username:'admin',
         password:'admin'
     };
-        console.log(props);
+        
     }
     onInputChanged=(event)=>{
         const target = event.target;
@@ -34,10 +34,23 @@ class Login extends React.Component{
     }
 
     login=()=>{
-        
+        const{authStore} = this.props;
         Axios.post(
+            authStore.BASE_URL +'/o/token/',{
+                grant_type:'password',
+                client_id: 'TgTpspURsZNxP31fMsG9pMqI6qTbjvL7KBrXqTvE',
+                username:this.state.username,
+                password:this.state.password
+            }
 
-        )
+        ).then((response)=>{
+            const token = response.data;
+            console.log(token);
+            const {authStore,history}=this.props;
+            authStore.setToken(token);
+            history.push('/');
+            console.log("login");
+        })
     }
 
 

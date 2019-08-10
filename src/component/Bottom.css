@@ -1,0 +1,20 @@
+.Bottom-div-master{
+    
+    background: #212529;
+}
+.Bottom-div-master1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding :10px;
+}
+.Bottom-div-inner{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    height:100%;
+    width:1000px;
+   flex-wrap:wrap;
+    
+}

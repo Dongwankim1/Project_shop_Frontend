@@ -9,7 +9,7 @@ export default class AuthStore{
         this.authToken = localStorage.getItem('auth_token');
     }
     @action setToken(token){
-        this.authToken = token.toekn_type + ' '+token.access_token;
+        this.authToken = token.token_type + ' '+token.access_token;
         localStorage.setItem('auth_token',this.authToken);
     }
     @action deleteToken(){

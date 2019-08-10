@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import './Home.css'
+import './Home.css';
 
 const slideImages = [
     './img/1.jpg',
@@ -14,9 +14,7 @@ const properties = {
     infinite: true,
     indicators: true,
     arrows: true,
-    onChange: (oldIndex, newIndex) => {
-        console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-    }
+    
 }
 
 const Slideshow = () => {
